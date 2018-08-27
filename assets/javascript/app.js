@@ -84,7 +84,7 @@ var game = {
 	},
 	done: function () {
 		$.each($("input[name='question-0']:checked"), function () {
-			if ($(this).val === questions[0].answer) {
+			if ($(this).val == questions[0].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -94,7 +94,7 @@ var game = {
 		});
 
 		$.each($("input[name='question-1']:checked"), function () {
-			if ($(this).val === questions[1].answer) {
+			if ($(this).val == questions[1].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -102,7 +102,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-2']:checked"), function () {
-			if ($(this).val === questions[2].answer) {
+			if ($(this).val == questions[2].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -110,7 +110,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-3']:checked"), function () {
-			if ($(this).val === questions[3].answer) {
+			if ($(this).val == questions[3].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -118,7 +118,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-4']:checked"), function () {
-			if ($(this).val === questions[4].answer) {
+			if ($(this).val == questions[4].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -126,7 +126,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-5']:checked"), function () {
-			if ($(this).val === questions[5].answer) {
+			if ($(this).val == questions[5].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -134,7 +134,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-6']:checked"), function () {
-			if ($(this).val === questions[6].answer) {
+			if ($(this).val == questions[6].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -142,7 +142,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-7']:checked"), function () {
-			if ($(this).val === questions[7].answer) {
+			if ($(this).val == questions[7].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -150,7 +150,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-8']:checked"), function () {
-			if ($(this).val === questions[8].answer) {
+			if ($(this).val == questions[8].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
@@ -158,7 +158,7 @@ var game = {
 
 		});
 		$.each($("input[name='question-9']:checked"), function () {
-			if ($(this).val === questions[9].answer) {
+			if ($(this).val == questions[9].answer) {
 				game.correct++;
 			} else {
 				game.incorrect++;
