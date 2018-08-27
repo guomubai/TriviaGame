@@ -52,7 +52,7 @@ $("#startGame").on("click", function () {
 var game = {
 	correct: 0,
 	incorrect: 0,
-	counter: 1000,
+	counter: 120,
 	countdown: function () {
 		game.counter--;
 		$("#counter").html(game.counter);
@@ -62,7 +62,7 @@ var game = {
 		}
 	},
 	start: function () {
-		timer = setInterval(game.countdown, 120)
+		timer = setInterval(game.countdown, 1000)
 		$("#content").prepend("<h2>Time Remaining: <span id = 'counter'>120</span> Seconds </h2>")
 
 		$("#startGame").remove(); //This gets rid of the button when you start game
